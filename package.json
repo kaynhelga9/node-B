@@ -2,9 +2,9 @@
   "name": "tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon server",
+    "dev": "nodemon server.js",
     "start": "node server"
   },
   "author": "",
