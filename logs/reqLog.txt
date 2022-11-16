@@ -1,7 +1,15 @@
-20221116 16:56:33 b69b680f-263c-4b7c-a790-ca9a63f02cf5 / GET
-20221116 16:56:33 6b0b2433-49b8-4917-bfdf-806c788427d0 /css/style.css GET
-20221116 16:56:54 5cf51808-55d2-4305-a05a-a84527f57fd0 /data/data.json GET
-20221116 16:56:59 2bef78b3-d362-4972-b82e-8de670e03e44 /img/img1.jpg GET
-20221116 16:57:35 e860b237-9fb9-4712-b1bb-b6cf9cdaba8b /new-page GET
-20221116 16:57:35 d62ebe21-0642-440c-9318-b7cbbe80f592 /img/img1.jpg GET
-20221116 16:57:35 6b903ccc-a65a-4d0b-937a-b6841bf07116 /css/style.css GET
+20221116 17:46:24 3413fb27-1819-48a0-80a9-f94c9336c189 GET undefined /text/data.txt
+20221116 17:53:26 0980e78f-a11e-4cb8-9fc7-f845c7fd9abc GET undefined /text/data.txt
+20221116 18:14:18 e5610b9e-f467-4387-aa75-2ec2b312d399 GET undefined /text/data.txt
+20221116 18:14:50 0f3b26f6-7ace-4d39-b4fb-7887b1cc06db GET undefined /text/data.txt
+20221116 18:14:51 dd0e7e3b-8e7d-4717-82b0-c1f374527da6 GET undefined /text/data.txt
+20221116 18:15:02 38a02e47-6a96-43d3-a889-16ea483f3f3c GET undefined /text/data.txt
+20221116 18:16:52 ecdc0996-7fb9-45d7-b6ce-e15d5427f60e GET undefined /text/data.txt
+20221116 18:17:39 46f622dd-0af5-41b2-a285-0a4c01ec514a GET undefined /text/data.txt
+20221116 18:17:44 e243d32b-76cb-4a8c-a533-1f75bc1a55df GET undefined /text/data.txt
+20221116 18:21:23 0e9bebf2-dfde-4c63-b4e7-369c8e06a414 GET undefined /text/data.txt
+20221116 18:22:00 4df87940-5614-470d-8717-e9d01e2d642c GET undefined /text/data.txt
+20221116 18:23:45 f866841a-c71e-4e96-acb2-78876e4ab9b9 GET undefined /dave
+20221116 18:23:45 8855cef2-c43f-4e7f-83d0-13d00333004c GET undefined /css/style.css
+20221116 18:26:21 53004d62-ed2e-405a-ad5b-fff2cf04414c GET undefined /dave
+20221116 18:26:21 5666a9d6-c14b-4009-b68d-043f33976661 GET undefined /css/style.css
