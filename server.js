@@ -16,19 +16,22 @@ app.use(logger)
 
 app.use(cors(corsOptions))
 
-// built in middleware, handle urlencoded data
-// 'content-type" application/x-www-form-urlencoded
+// handle urlencoded data
 app.use(express.urlencoded({extended: false}))
 
-// built in middleware, json
+// json
 app.use(express.json())
 
-// built in middleware, static
+// static
 app.use('/', express.static(path.join(__dirname, '/public')))
 
-// routing
+
+// ROUTING
 app.use('/', require('./routes/root'))
+app.use('/register', require('./routes/register'))
+app.use('/auth', require('./routes/auth'))
 app.use('/employees', require('./routes/api/employees'))
+
 
 app.all('/*', (req, res) => {
     res.status(404)
