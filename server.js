@@ -5,6 +5,8 @@ const { logEvents } = require('./middleware/log')
 const { logger } = require('./middleware/log')
 const errorHandler = require('./middleware/errorHandler')
 const corsOptions = require('././config/corsOption')
+const verifyJWT = require('./middleware/verifyJWT')
+const cookieParser = require('cookie-parser')
 
 const PORT = process.env.PORT | 8000
 
@@ -22,6 +24,9 @@ app.use(express.urlencoded({extended: false}))
 // json
 app.use(express.json())
 
+// middleware for cookies
+app.use(cookieParser())
+
 // static
 app.use('/', express.static(path.join(__dirname, '/public')))
 
@@ -30,6 +35,10 @@ app.use('/', express.static(path.join(__dirname, '/public')))
 app.use('/', require('./routes/root'))
 app.use('/register', require('./routes/register'))
 app.use('/auth', require('./routes/auth'))
+app.use('/refresh', require('./routes/refresh'))
+app.use('/logout', require('./routes/logout'))
+
+app.use(verifyJWT) // only verify after this pathing
 app.use('/employees', require('./routes/api/employees'))
 
 
