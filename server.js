@@ -45,21 +45,21 @@ app.use(verifyJWT); // only verify after this pathing
 app.use("/employees", require("./routes/api/employees"));
 
 app.all("/*", (req, res) => {
-  res.status(404);
-  if (req.accepts("html")) {
-    res.sendFile(path.join(__dirname, "views", "404.html"));
-  } else if (req.accepts("json")) {
-    res.json({ error: "404 Not Found" });
-  } else {
-    res.type("txt").send("404 Not Found");
-  }
+	res.status(404);
+	if (req.accepts("html")) {
+		res.sendFile(path.join(__dirname, "views", "404.html"));
+	} else if (req.accepts("json")) {
+		res.json({ error: "404 Not Found" });
+	} else {
+		res.type("txt").send("404 Not Found");
+	}
 });
 
 app.use(errorHandler);
 
 mongoose.connection.once("open", () => {
-  console.log("connected to mongodb");
-  app.listen(PORT, () => {
-    console.log(`Server running on ${PORT}`);
-  });
+	console.log("connected to mongodb");
+	app.listen(PORT, () => {
+		console.log(`Server running on ${PORT}`);
+	});
 });
