@@ -29,3 +29,5 @@
 20221125 13:45:44 641acdaf-898b-4d64-a1db-631274f9888b POST undefined /employees
 20221125 13:45:56 4137d7fc-f7ac-43b2-964f-d9ecdce3a1ff DELETE undefined /employees
 20221125 13:46:07 a90266d5-bc0f-47f5-8694-e7292b2e9f2b DELETE undefined /employees
+20221125 14:58:23 a37a75cb-0a40-4e18-86c9-bd5a76c4a990 POST undefined /register
+20221125 14:58:59 41cf8c6d-87f7-4f76-8077-dbcbc266d4c1 POST undefined /register
