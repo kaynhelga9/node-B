@@ -1,9 +1,9 @@
-### Node basic concepts:
+### node basic concepts
 
-express
-web server
-mongo/mongoose
-async crud ops
-jwt auth
-middleware
-mvc
+- express
+- web server
+- mongo/mongoose
+- async crud ops
+- jwt auth
+- middleware
+- mvc
